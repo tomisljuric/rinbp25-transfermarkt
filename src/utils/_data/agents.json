@@ -1,0 +1,42 @@
+[
+  {
+    "_id": "60d0fe4f5311236168a10c01",
+    "name": "Jorge Mendes",
+    "clientList": ["60d0fe4f5311236168a109cb", "60d0fe4f5311236168a109cc"],
+    "contactInfo": {
+      "email": "jorge.mendes@gestifute.com",
+      "phone": "+351123456789"
+    },
+    "agency": "Gestifute"
+  },
+  {
+    "_id": "60d0fe4f5311236168a10c02",
+    "name": "Mino Raiola",
+    "clientList": ["60d0fe4f5311236168a109cd"],
+    "contactInfo": {
+      "email": "mino.raiola@agency.com",
+      "phone": "+39123456789"
+    },
+    "agency": "Raiola Agency"
+  },
+  {
+    "_id": "60d0fe4f5311236168a10c03",
+    "name": "Pini Zahavi",
+    "clientList": ["60d0fe4f5311236168a109ca"],
+    "contactInfo": {
+      "email": "pini.zahavi@agency.com",
+      "phone": "+33123456789"
+    },
+    "agency": "Zahavi Sports Management"
+  },
+  {
+    "_id": "60d0fe4f5311236168a10c04",
+    "name": "Jonathan Barnett",
+    "clientList": ["60d0fe4f5311236168a109ce"],
+    "contactInfo": {
+      "email": "jonathan.barnett@stellar.com",
+      "phone": "+44123456789"
+    },
+    "agency": "Stellar Group"
+  }
+]

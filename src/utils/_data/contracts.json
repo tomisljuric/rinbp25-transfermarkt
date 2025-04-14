@@ -1,0 +1,58 @@
+[
+  {
+    "_id": "60d0fe4f5311236168a10d01",
+    "playerId": "60d0fe4f5311236168a109cc",
+    "clubId": "60d0fe4f5311236168a10a02",
+    "startDate": "2023-07-15T00:00:00.000Z",
+    "endDate": "2028-06-30T00:00:00.000Z",
+    "salary": 35000000,
+    "buyoutClause": 350000000,
+    "status": "Active",
+    "clauses": {
+      "imageRights": "50% player, 50% club",
+      "performanceBonus": "€2M for league title, €3M for Champions League"
+    }
+  },
+  {
+    "_id": "60d0fe4f5311236168a10d02",
+    "playerId": "60d0fe4f5311236168a109cd",
+    "clubId": "60d0fe4f5311236168a10a03",
+    "startDate": "2022-06-10T00:00:00.000Z",
+    "endDate": "2027-06-30T00:00:00.000Z",
+    "salary": 30000000,
+    "buyoutClause": 300000000,
+    "status": "Active",
+    "clauses": {
+      "imageRights": "50% player, 50% club",
+      "performanceBonus": "€1M per 20 goals, €2M for league title"
+    }
+  },
+  {
+    "_id": "60d0fe4f5311236168a10d03",
+    "playerId": "60d0fe4f5311236168a109ca",
+    "clubId": "60d0fe4f5311236168a10a04",
+    "startDate": "2021-08-10T00:00:00.000Z",
+    "endDate": "2023-06-30T00:00:00.000Z",
+    "salary": 40000000,
+    "buyoutClause": 0,
+    "status": "Expired",
+    "clauses": {
+      "imageRights": "100% player",
+      "performanceBonus": "€5M for Champions League win"
+    }
+  },
+  {
+    "_id": "60d0fe4f5311236168a10d04",
+    "playerId": "60d0fe4f5311236168a109ce",
+    "clubId": "60d0fe4f5311236168a10a03",
+    "startDate": "2019-01-01T00:00:00.000Z",
+    "endDate": "2025-06-30T00:00:00.000Z",
+    "salary": 25000000,
+    "buyoutClause": 200000000,
+    "status": "Active",
+    "clauses": {
+      "imageRights": "70% player, 30% club",
+      "performanceBonus": "€1M for league title, €1M for 15+ assists"
+    }
+  }
+]

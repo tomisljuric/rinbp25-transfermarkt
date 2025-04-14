@@ -1,0 +1,67 @@
+[
+  {
+    "_id": "60d0fe4f5311236168a109ca",
+    "name": "Lionel Messi",
+    "birthDate": "1987-06-24",
+    "nationality": "Argentina",
+    "position": "Forward",
+    "marketValue": 50000000,
+    "stats": {
+      "goals": 672,
+      "assists": 301,
+      "appearances": 778
+    }
+  },
+  {
+    "_id": "60d0fe4f5311236168a109cb",
+    "name": "Cristiano Ronaldo",
+    "birthDate": "1985-02-05",
+    "nationality": "Portugal",
+    "position": "Forward",
+    "marketValue": 45000000,
+    "stats": {
+      "goals": 680,
+      "assists": 229,
+      "appearances": 886
+    }
+  },
+  {
+    "_id": "60d0fe4f5311236168a109cc",
+    "name": "Kylian Mbappe",
+    "birthDate": "1998-12-20",
+    "nationality": "France",
+    "position": "Forward",
+    "marketValue": 180000000,
+    "stats": {
+      "goals": 150,
+      "assists": 76,
+      "appearances": 236
+    }
+  },
+  {
+    "_id": "60d0fe4f5311236168a109cd",
+    "name": "Erling Haaland",
+    "birthDate": "2000-07-21",
+    "nationality": "Norway",
+    "position": "Forward",
+    "marketValue": 150000000,
+    "stats": {
+      "goals": 115,
+      "assists": 29,
+      "appearances": 159
+    }
+  },
+  {
+    "_id": "60d0fe4f5311236168a109ce",
+    "name": "Kevin De Bruyne",
+    "birthDate": "1991-06-28",
+    "nationality": "Belgium",
+    "position": "Midfielder",
+    "marketValue": 100000000,
+    "stats": {
+      "goals": 89,
+      "assists": 148,
+      "appearances": 359
+    }
+  }
+]

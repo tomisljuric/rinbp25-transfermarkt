@@ -1,0 +1,72 @@
+[
+  {
+    "_id": "60d0fe4f5311236168a10b01",
+    "playerId": "60d0fe4f5311236168a109cc",
+    "fromClub": "60d0fe4f5311236168a10a04",
+    "toClub": "60d0fe4f5311236168a10a02",
+    "transferFee": 180000000,
+    "currency": "EUR",
+    "exchangeRate": 1.0,
+    "date": "2023-07-15T00:00:00.000Z",
+    "agentId": "60d0fe4f5311236168a10c01",
+    "transferType": "Permanent",
+    "status": "Completed",
+    "transferWindow": "Summer",
+    "performanceBonuses": [
+      {
+        "description": "Champions League Win Bonus",
+        "amount": 5000000,
+        "condition": "Win Champions League in first season",
+        "achieved": false
+      }
+    ],
+    "sellOnClause": {
+      "percentage": 15,
+      "active": true
+    }
+  },
+  {
+    "_id": "60d0fe4f5311236168a10b02",
+    "playerId": "60d0fe4f5311236168a109cd",
+    "fromClub": "60d0fe4f5311236168a10a05",
+    "toClub": "60d0fe4f5311236168a10a03",
+    "transferFee": 150000000,
+    "currency": "EUR",
+    "exchangeRate": 1.0,
+    "date": "2022-06-10T00:00:00.000Z",
+    "agentId": "60d0fe4f5311236168a10c02",
+    "transferType": "Permanent",
+    "status": "Completed",
+    "transferWindow": "Summer",
+    "performanceBonuses": [
+      {
+        "description": "Goal Bonus",
+        "amount": 2000000,
+        "condition": "Score 25 goals in first season",
+        "achieved": true
+      }
+    ],
+    "sellOnClause": {
+      "percentage": 0,
+      "active": false
+    }
+  },
+  {
+    "_id": "60d0fe4f5311236168a10b03",
+    "playerId": "60d0fe4f5311236168a109ca",
+    "fromClub": "60d0fe4f5311236168a10a01",
+    "toClub": "60d0fe4f5311236168a10a04",
+    "transferFee": 0,
+    "currency": "EUR",
+    "exchangeRate": 1.0,
+    "date": "2021-08-10T00:00:00.000Z",
+    "agentId": "60d0fe4f5311236168a10c03",
+    "transferType": "Free Transfer",
+    "status": "Completed",
+    "transferWindow": "Summer",
+    "sellOnClause": {
+      "percentage": 0,
+      "active": false
+    }
+  }
+]
