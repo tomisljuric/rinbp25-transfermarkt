@@ -1,12 +1,62 @@
-# React + Vite
+# Football Transfer Market Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A web application for tracking football players, clubs, transfers, and market values - inspired by the popular Transfermarkt platform.
 
-Currently, two official plugins are available:
+## Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This application provides a comprehensive database of football players and their careers, including:
 
-## Expanding the ESLint configuration
+- Player profiles with personal and professional details
+- Club information and rosters
+- Transfer history between clubs
+- Market value tracking over time
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Architecture
+
+```mermaid
+graph TD
+    Client[React Frontend] --> |HTTP Requests| Server[Express API Server]
+    Server --> |Mongoose ODM| Database[(MongoDB)]
+    
+    subgraph Frontend
+        App[App Component] --> PlayerList[Player List Component]
+        App --> PlayerDetails[Player Details Component]
+        PlayerList -->|Select Player| PlayerDetails
+    end
+    
+    subgraph Backend
+        Server --> PlayerRoutes[Player Routes]
+        Server --> ClubRoutes[Club Routes]
+        Server --> TransferRoutes[Transfer Routes]
+        Server --> MarketValueRoutes[Market Value Routes]
+        
+        PlayerRoutes --> PlayerModel[Player Model]
+        ClubRoutes --> ClubModel[Club Model]
+        TransferRoutes --> TransferModel[Transfer Model]
+        MarketValueRoutes --> MarketValueModel[Market Value Model]
+        
+        PlayerModel --> Database
+        ClubModel --> Database
+        TransferModel --> Database
+        MarketValueModel --> Database
+    end
+```
+
+## Features
+
+- Browse and search for players
+- Filter players by position
+- Sort player list by various attributes
+- View detailed player information
+- See player's club history
+- Track market value changes
+
+## Technology Stack
+
+- **Frontend**: React + Vite, CSS
+- **Backend**: Node.js, Express
+- **Database**: MongoDB with Mongoose ODM
+
+## Getting Started
+
+See the [SPECS.md](./SPECS.md) file for technical specifications and setup instructions.
