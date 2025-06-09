@@ -1,0 +1,64 @@
+.players-list-container {
+  padding: 1rem;
+  background-color: #f7f7f7;
+  border-radius: 10px;
+  max-width: 900px;
+  margin: 2rem auto;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.players-list-container h2 {
+  text-align: center;
+  color: #333;
+}
+
+.players-list-container input {
+  display: block;
+  width: 100%;
+  margin: 0.5rem 0;
+  padding: 0.5rem;
+  font-size: 1rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.players-list-container input:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+.players-list-container button {
+  margin-top: 1rem;
+  padding: 0.6rem 1.2rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 6px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+}
+
+.players-list-container button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.players-list-container ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 1rem;
+}
+
+.players-list-container li {
+  padding: 0.7rem;
+  margin: 0.4rem 0;
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.players-list-container li:hover {
+  background-color: #e9f3ff;
+}
