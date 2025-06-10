@@ -6,10 +6,7 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-mongoose.connect("mongodb://127.0.0.1:27017/projekt-transfermarkt", {
-  useNewUrlParser: true,
-  useUnifiedTopology: true,
-});
+mongoose.connect("mongodb://127.0.0.1:27017/projekt-transfermarkt");
 
 const playerSchema = new mongoose.Schema({}, { strict: false });
 const Player = mongoose.model("Players", playerSchema, "players_data");
